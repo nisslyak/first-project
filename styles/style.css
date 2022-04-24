@@ -42,7 +42,7 @@ body{
   margin: 100px auto;
 }
 
-.two-columns_brief{
+.two-columns-brief{
   min-width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -51,7 +51,7 @@ body{
   margin:0;
 }
 
-.two-columns_main-text{
+.two-columns-main-text{
   width: 80%; 
   min-width: 784px;
   line-height: 34px;
@@ -61,19 +61,19 @@ body{
   flex-wrap: wrap;
 }
 
-.two-columns_span-accent{
+.two-columns-span-accent{
   font-weight: 700;
 }
 
-.two-columns_paragraph{
+.two-columns-paragraph{
   margin:0 auto 30px;
 }
 
-.two-columns_last-paragraph{
+.two-columns-last-paragraph{
   margin-bottom:0;
 }
 
-.digits-table{
+.table{
   width:1100px;
   margin:100px auto;
   display: flex;
@@ -81,23 +81,24 @@ body{
   flex-wrap: wrap;
 }
 
-.digits-table_cell{
+.table-cell{
   width:250px;
   margin: 60px auto;
 }
 
-.digits-table_lower-row{
-  margin-bottom: 0;
-}
-
-.digits-table_heading{
+.table-heading{
   line-height: 1.15 ;
   font-size: 24px;
   font-weight: 700;
+  margin-bottom:20px;
 }
 
-.digits-table_text{
+.table-text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.add-margin{
+  margin-bottom: 20px;
 }
