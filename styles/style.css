@@ -31,7 +31,6 @@
 }
 
 body{
-  background-color: darkgrey;
   font-family: "Inter", "Arial", sans-serif;;
 }
 
@@ -76,10 +75,10 @@ body{
 
 .digits-table{
   width:1100px;
-  margin:100 auto;
+  margin:100px auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction:column;
 }
 
 .digits-table_cell{
@@ -87,3 +86,18 @@ body{
   margin: 60px auto;
 }
 
+.digits-table_lower-row{
+  margin-bottom: 0;
+}
+
+.digits-table_heading{
+  line-height: 1.15 ;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.digits-table_text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
