@@ -75,5 +75,15 @@ body{
 }
 
 .digits-table{
-  
+  width:1100px;
+  margin:100 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
 }
+
+.digits-table_cell{
+  width:250px;
+  margin: 60px auto;
+}
+
