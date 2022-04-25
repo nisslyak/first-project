@@ -22,6 +22,10 @@
   width: 568px;
 }
 
+body{
+  font-family: "Inter", "Arial", sans-serif;;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -30,9 +34,6 @@
   margin-top: 80px;
 }
 
-body{
-  font-family: "Inter", "Arial", sans-serif;;
-}
 
 .two-columns{
   min-height: 400px;
@@ -42,7 +43,7 @@ body{
   margin: 100px auto;
 }
 
-.two-columns-brief{
+.two-columns__brief{
   min-width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -51,7 +52,7 @@ body{
   margin:0;
 }
 
-.two-columns-main-text{
+.two-columns__main-text{
   width: 80%; 
   min-width: 784px;
   line-height: 34px;
@@ -61,21 +62,19 @@ body{
   flex-wrap: wrap;
 }
 
-.two-columns-span-accent{
-  font-weight: 700;
-}
-
-.two-columns-paragraph{
+.two-columns__paragraph{
   margin:0 auto 30px;
 }
 
-.two-columns-last-paragraph{
+.two-columns__span-accent{
+  font-weight: 700;
+}
+
+.two-columns_last-paragraph{
   margin-bottom:0;
 }
 
-.digits{
-  padding: 100px 0;
-}
+
 .table{
   width:1100px;
   margin:0 auto;
@@ -84,7 +83,7 @@ body{
   flex-wrap: wrap;
 }
 
-.table-cell{
+.table__cell{
   width:250px;
   margin: 60px 0 0;
   display: flex;
@@ -92,14 +91,14 @@ body{
   align-content: flex-start;
 }
 
-.table-heading{
+.table__heading{
   line-height: 1.15 ;
   font-size: 24px;
   font-weight: 700;
   margin:0;
 }
 
-.table-text{
+.table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -109,8 +108,15 @@ body{
 }
 
 
-.table-cell-theme-dark{
+/*
+
+.table__cell_theme_dark{
   width:200px;
+}
+*/
+
+.digits{
+  padding: 100px 0;
 }
 
 .kaufman{
