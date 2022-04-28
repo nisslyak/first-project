@@ -1,6 +1,22 @@
 .header__subtitle{
     width:388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
     position:absolute;
     margin-left: 64px;
     margin-bottom: 30px;
+}
+
+.header__subtitle a{
+    color:#2f80ed;
+}
+
+.header__subtitle a:visited{
+    color:#2f80ed;
+}
+
+.header__subtitle a:hover{
+    opacity: 50%;
+    transition: width 2s;
 }
