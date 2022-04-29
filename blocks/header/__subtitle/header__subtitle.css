@@ -3,21 +3,10 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    position:absolute;
+    position: absolute;
     bottom: 30px;
-    left:64px;
+    left: 64px;
     margin: 0;
+    z-index: 8;
 }
 
-.header__subtitle a{
-    color:#2f80ed;
-}
-
-.header__subtitle a:visited{
-    color:#2f80ed;
-}
-
-.header__subtitle a:hover{
-    opacity: 50%;
-    transition: width 2s;
-}
