@@ -1,12 +1,12 @@
-.header__link{
+.header__link {
     color:#2f80ed;
 }
 
-.header__link:visited{
+.header__link:visited {
     color:#2f80ed;
 }
 
-.header__link:hover{
+.header__link:hover {
     opacity: 50%;
     transition: width 2s;
 }

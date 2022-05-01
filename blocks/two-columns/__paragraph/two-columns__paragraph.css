@@ -1,4 +1,4 @@
-.two-columns__paragraph{
+.two-columns__paragraph {
     margin:0 auto 30px;
     line-height: 34px;
     font-size: 24px;
@@ -6,6 +6,6 @@
     flex-wrap: wrap;
   }
 
-  .two-columns__paragraph:last-of-type{
+  .two-columns__paragraph:last-of-type {
     margin-bottom:0;
   }
