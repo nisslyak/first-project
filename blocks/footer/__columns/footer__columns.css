@@ -1,4 +1,6 @@
 .footer__columns {
+    width: 90%;
     display: flex;
-    flex-basis: 711px;
+    justify-content: center;
+    align-items: flex-start;
 }
