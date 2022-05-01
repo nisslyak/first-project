@@ -2,6 +2,8 @@
     margin:0 auto 30px;
     line-height: 34px;
     font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .two-columns__paragraph:last-of-type{

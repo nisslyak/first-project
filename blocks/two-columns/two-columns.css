@@ -3,5 +3,5 @@
     display:flex;
     justify-content: space-between;
     width: 80%;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
   }
