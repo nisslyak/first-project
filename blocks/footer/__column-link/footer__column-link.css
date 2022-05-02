@@ -1,3 +1,16 @@
-.footer__column_link{
-  padding: 0;
+.footer__column_link {
+  margin-bottom: 10px;
+}
+
+.footer__column_link:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__column_link:visited {
+  color: white;
+}
+
+.footer__column_link:hover {
+  opacity: 50%;
+  transition: width 2s;
 }

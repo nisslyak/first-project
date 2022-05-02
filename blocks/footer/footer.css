@@ -1,7 +1,8 @@
 .footer {
-    min-height: 350px;
-    background-color: #1f1f1f;
-    color: white;
-    padding: 60px 0 40px;
-    position: relative;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
+  margin: auto;
+  position: relative;
+  /*margin: 60px auto 40px;*/
 }
