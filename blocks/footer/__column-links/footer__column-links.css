@@ -11,7 +11,7 @@
 .footer__column-links li:last-of-type {
   margin-bottom: 03;
 }
-
+/*
 .footer__column-links li a{
   margin-bottom: 10px;
   text-decoration: none;
@@ -22,4 +22,4 @@
   opacity: 50%;
   transition: width 2s;
 }
-
+*/
