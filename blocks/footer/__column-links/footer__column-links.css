@@ -12,8 +12,14 @@
   margin-bottom: 03;
 }
 
-/*
-.footer__column-links li{
-  list-style: none;
+.footer__column-links li a{
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white
 }
-*/
+
+.footer__column_links li a:hover {
+  opacity: 50%;
+  transition: width 2s;
+}
+
