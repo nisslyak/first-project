@@ -1,5 +1,4 @@
 .two-columns {
-    min-height: 204px;
     display: flex;
     justify-content: space-between;
     width: 80%;
