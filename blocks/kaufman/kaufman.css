@@ -4,4 +4,7 @@
     padding: 90px 0;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
   }
