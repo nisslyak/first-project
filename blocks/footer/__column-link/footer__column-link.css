@@ -7,19 +7,12 @@
   margin-bottom: 0;
 }
 
-
-
 .footer__column-link{
   margin-bottom: 10px;
   text-decoration: none;
   color: white
 }
-/*
-.footer__column-link {
-  opacity: 50%;
-  transition: width 2s;
-}
-*/
+
 .footer__column-link:hover {
   opacity: 50%;
   transition: width 2s;
